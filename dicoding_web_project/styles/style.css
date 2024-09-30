@@ -1,0 +1,76 @@
+/* CSS - styles/style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+
+header {
+    background-color: #17153B;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #C8ACD6;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #FFFFFF;
+}
+
+article {
+    flex: 2;
+    margin-right: 1rem;
+    background-color: #EDEDED;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    background-color: #433D8B;
+    padding: 1.5rem;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2E236C;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #C8ACD6;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    aside {
+        margin-top: 1rem;
+    }
+}
